@@ -1,24 +1,4 @@
-"""
-predict.py  (v3 — 2026 season: new grid, new calendar, new teams)
-==================================================================
-Predict win probabilities for any 2026 F1 race.
 
-What's new vs v2:
-  - Full 2026 driver lineup (22 drivers, 11 teams — Cadillac & Audi debut)
-  - Updated 2026 calendar (22 races — Bahrain & Saudi cancelled)
-  - New circuit: Madrid street circuit (madring)
-  - Driver history lookup now uses 2025 season stats (most recent)
-  - Constructor IDs updated (sauber → audi, etc.)
-  - Accuracy display re-runs against 2025 test set
-
-2026 key facts:
-  - Defending champion: Lando Norris (McLaren)
-  - Defending constructors: McLaren
-  - New teams: Cadillac (Perez + Bottas), Audi (Hulkenberg + Bortoleto)
-  - New circuit: Madrid street circuit
-  - Dropped: Bahrain GP, Saudi GP, Imola
-  - New regulations: major PU + aero overhaul
-"""
 
 import os
 import pickle
