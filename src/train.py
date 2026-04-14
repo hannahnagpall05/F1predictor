@@ -1,18 +1,3 @@
-"""
-train.py  (v3 — 2025 test set, predicting 2026)
-================================================
-Trains a Gradient Boosting classifier on F1 race data.
-
-Split strategy:
-  - Train : 1990–2024  (full history including 2024)
-  - Test  : 2025       (complete season — Norris WDC, McLaren WCC)
-  - Predict target: 2026 season
-
-Key improvements from v2:
-  - Test set is now the freshest possible season (2025)
-  - 2025 driver history feeds into predict.py for 2026 predictions
-  - Accuracy report shows 2025 per-race performance
-"""
 
 import os
 import pickle
